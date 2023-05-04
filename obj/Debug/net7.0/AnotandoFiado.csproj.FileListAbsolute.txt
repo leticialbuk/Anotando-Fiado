@@ -1,0 +1,15 @@
+C:\Dev\AnotandoFiado\bin\Debug\net7.0\AnotandoFiado.exe
+C:\Dev\AnotandoFiado\bin\Debug\net7.0\AnotandoFiado.deps.json
+C:\Dev\AnotandoFiado\bin\Debug\net7.0\AnotandoFiado.runtimeconfig.json
+C:\Dev\AnotandoFiado\bin\Debug\net7.0\AnotandoFiado.dll
+C:\Dev\AnotandoFiado\bin\Debug\net7.0\AnotandoFiado.pdb
+C:\Dev\AnotandoFiado\obj\Debug\net7.0\AnotandoFiado.csproj.AssemblyReference.cache
+C:\Dev\AnotandoFiado\obj\Debug\net7.0\AnotandoFiado.GeneratedMSBuildEditorConfig.editorconfig
+C:\Dev\AnotandoFiado\obj\Debug\net7.0\AnotandoFiado.AssemblyInfoInputs.cache
+C:\Dev\AnotandoFiado\obj\Debug\net7.0\AnotandoFiado.AssemblyInfo.cs
+C:\Dev\AnotandoFiado\obj\Debug\net7.0\AnotandoFiado.csproj.CoreCompileInputs.cache
+C:\Dev\AnotandoFiado\obj\Debug\net7.0\AnotandoFiado.dll
+C:\Dev\AnotandoFiado\obj\Debug\net7.0\refint\AnotandoFiado.dll
+C:\Dev\AnotandoFiado\obj\Debug\net7.0\AnotandoFiado.pdb
+C:\Dev\AnotandoFiado\obj\Debug\net7.0\AnotandoFiado.genruntimeconfig.cache
+C:\Dev\AnotandoFiado\obj\Debug\net7.0\ref\AnotandoFiado.dll

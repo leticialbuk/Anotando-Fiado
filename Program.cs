@@ -8,7 +8,8 @@ namespace FiadoOOP
         {
             Console.WriteLine("Hello World!");
 
-            var Pago = new Pago();
+            var fiados = new Fiado("Cliente X", 24, 0, "3 águas");
+            Console.WriteLine(fiados);
         }
     }
 }
