@@ -2,7 +2,7 @@ namespace Fiados
 {
     public abstract class Conteudo
     {
-        public Conteudo(string nome, int valor, int data, string produto)
+        public Conteudo(string nome, string valor, string data, string produto)
         {
             Nome = nome;
             Valor = valor;
@@ -11,13 +11,9 @@ namespace Fiados
         }
 
         public string Nome { get; set; }
-        public int Valor { get; set; }
-        public int Data { get; set; }
+        public string Valor { get; set; }
+        public string Data { get; set; }
         public string Produto { get; set; }
 
-        public override string ToString()
-        {
-            return $"Nome: {Nome}, Valor: {Valor}, Data: {Data}, Produto: {Produto}";
-        }
     }
 }

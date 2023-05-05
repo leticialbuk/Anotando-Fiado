@@ -2,7 +2,7 @@ namespace Fiados
 {
     public class Pagos : Conteudo
     {
-        public Pagos(string nome, int valor, int data, string produto)
+        public Pagos(string nome, string valor, string data, string produto)
             : base(nome, valor, data, produto)
         {
 
