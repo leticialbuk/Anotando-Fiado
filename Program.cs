@@ -18,7 +18,7 @@ namespace FiadoOOP
             Console.WriteLine("Digite os produtos: ");
             var produto = Console.ReadLine();
 
-            Console.WriteLine("...........");
+            Console.WriteLine("...................");
             Console.WriteLine("Comprovante devedor");
 
             var fiados = new Fiado(nome, valor, data, produto);
