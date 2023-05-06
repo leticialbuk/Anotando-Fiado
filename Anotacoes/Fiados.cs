@@ -11,7 +11,7 @@ namespace Fiados
 
         public override string ToString()
         {
-            return $"Nome: {Nome},\nValor: R$ {Valor}, \nData: {Data}, \nProduto: {Produto}";
+            return $"Nome: {Nome},\nValor: R$ {Valor}, \nData: {Data}, \nProdutos: {Produto}";
         }
     }
 }

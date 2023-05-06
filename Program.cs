@@ -15,7 +15,7 @@ namespace FiadoOOP
             var valor = Console.ReadLine();
             Console.WriteLine("Digite a data da compra: ");
             var data = Console.ReadLine();
-            Console.WriteLine("Digite os produtos: ");
+            Console.WriteLine("Digite os produtos adquiridos: ");
             var produto = Console.ReadLine();
 
             Console.WriteLine("...................");
