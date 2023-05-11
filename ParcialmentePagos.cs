@@ -1,8 +1,8 @@
 namespace Fiados
 {
-    public class Fiado : Conteudo
+    public class ParcialPagos : Conteudo
     {
-        public Fiado(string nome, string valor, string data, string produto)
+        public ParcialPagos(string nome, string valor, string data, string produto)
             : base(nome, valor, data, produto)
         {
 
