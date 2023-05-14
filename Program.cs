@@ -8,7 +8,6 @@ namespace FiadoOOP
         {
             Console.WriteLine("ANOTANDO FIADO");
             Console.WriteLine("..............");
-
             Console.WriteLine("Nome do cliente: ");
             var nome = Console.ReadLine();
             Console.WriteLine("Valor da compra R$: ");
@@ -17,12 +16,14 @@ namespace FiadoOOP
             var data = Console.ReadLine();
             Console.WriteLine("Digite os produtos adquiridos: ");
             var produto = Console.ReadLine();
-
             Console.WriteLine("...................");
             Console.WriteLine("Comprovante devedor");
 
             var fiados = new Fiado(nome, valor, data, produto);
             Console.WriteLine(fiados);
+
+            var parcialPagos = new ParcialPagos(nome, valor, data, produto);
+            Console.WriteLine(parcialPagos);
         }
     }
 }
