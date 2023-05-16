@@ -7,8 +7,9 @@ namespace Fiados
             Console.WriteLine("ANOTANDO FIADO");
             Console.WriteLine("..............");
             Console.WriteLine("Escolha forma de anotação: ");
-            Console.WriteLine("1- Fiados");
-            Console.WriteLine("2 - Parcialmente Pagos");
+            Console.WriteLine("1 - Fiado");
+            Console.WriteLine("2 - Parcialmente Pago");
+            Console.WriteLine("0 - Para Sair");
 
             var option = short.Parse(Console.ReadLine());
             var escolha = MenuOption(option);
@@ -24,8 +25,14 @@ namespace Fiados
                     escolha = "Fiado";
                     break;
                 case 2:
-                    escolha = "ParcialPagos";
+                    escolha = "Parcialmente Pago";
                     break;
+                case 0:
+                    {
+                        Console.Clear();
+                        Environment.Exit(0);
+                        break;
+                    }
             }
             return escolha;
         }
