@@ -10,6 +10,8 @@ namespace Fiados
 
         public override string ToString()
         {
+            Console.WriteLine("COMPROVANTE PARCIALMENTE PAGO");
+            Console.WriteLine(".............................");
             return $"Nome: {Nome},\nValor: R$ {Valor}, \nData: {Data}, \nProdutos: {Produto}";
         }
     }

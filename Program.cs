@@ -19,8 +19,6 @@ namespace FiadoOOP
             Console.WriteLine("Digite os produtos adquiridos: ");
             var produto = Console.ReadLine();
             Console.Clear();
-            Console.WriteLine("COMPROVANTE DEVEDOR");
-            Console.WriteLine("...................");
 
             if (escolha == "Fiado")
             {
