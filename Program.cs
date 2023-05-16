@@ -6,6 +6,8 @@ namespace FiadoOOP
     {
         static void Main(string[] args)
         {
+            var escolha = Registros.Menu();
+
             Console.WriteLine("ANOTANDO FIADO");
             Console.WriteLine("..............");
             Console.WriteLine("Nome do cliente: ");
@@ -19,11 +21,16 @@ namespace FiadoOOP
             Console.WriteLine("...................");
             Console.WriteLine("Comprovante devedor");
 
-            var fiados = new Fiado(nome, valor, data, produto);
-            Console.WriteLine(fiados);
-
-            var parcialPagos = new ParcialPagos(nome, valor, data, produto);
-            Console.WriteLine(parcialPagos);
+            if (escolha == "Fiado")
+            {
+                var fiados = new Fiado(nome, valor, data, produto);
+                Console.WriteLine(fiados);
+            }
+            else
+            {
+                var parcialPagos = new ParcialPagos(nome, valor, data, produto);
+                Console.WriteLine(parcialPagos);
+            }
         }
     }
 }

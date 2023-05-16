@@ -2,24 +2,32 @@ namespace Fiados
 {
     public static class Registros
     {
-        public static void Menu()
+        public static string Menu()
         {
+            Console.WriteLine("ANOTANDO FIADO");
+            Console.WriteLine("..............");
+            Console.WriteLine("Escolha forma de anotação: ");
+            Console.WriteLine("1- Fiados");
+            Console.WriteLine("2 - Parcialmente Pagos");
+
             var option = short.Parse(Console.ReadLine());
-            MenuOption(option);
+            var escolha = MenuOption(option);
+            return escolha;
         }
 
-        public static void MenuOption(short option)
+        public static string MenuOption(short option)
         {
             var escolha = "";
             switch (option)
             {
                 case 1:
-                    escolha = Fiado();
+                    escolha = "Fiado";
                     break;
                 case 2:
-                    escolha = ParcialPagos();
+                    escolha = "ParcialPagos";
                     break;
             }
+            return escolha;
         }
     }
 }
