@@ -4,6 +4,8 @@ namespace FiadoOOP
 {
     internal class Program
     {
+        public static bool adiocionarItem;
+
         static void Main(string[] args)
         {
             var escolha = Registros.Menu();
@@ -29,6 +31,18 @@ namespace FiadoOOP
             {
                 var parcialPagos = new ParcialPagos(nome, valor, data, produto);
                 Console.WriteLine(parcialPagos);
+            }
+
+            Console.WriteLine("Deseja adicionar mais intens? \n1 - sim \n2 - não");
+            var resp = Console.ReadLine();
+
+            if (resp == "1")
+            {
+                Console.ReadLine();
+            }
+            else
+            {
+                Console.WriteLine();
             }
         }
     }
