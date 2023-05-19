@@ -41,11 +41,29 @@ namespace FiadoOOP
 
             } while (resp == 1);
 
-            Console.WriteLine("COMPROVANTE DEVEDOR");
-            Console.WriteLine("...................");
+            if (fiado.Count > 0)
+            {
+                var comprovanteFiado = string.Empty;
+                foreach (var item in fiado)
+                {
+                    comprovanteFiado += "\n" + item.ToString();
+                }
+                Console.WriteLine("COMPROVANTE DEVEDOR");
+                Console.WriteLine("...................");
+                Console.WriteLine(comprovanteFiado);
+            }
 
-            Console.WriteLine("COMPROVANTE PARCIAL");
-            Console.WriteLine("...................");
+            if (parcialPago.Count > 0)
+            {
+                var comprovanteParcial = string.Empty;
+                foreach (var item in parcialPago)
+                {
+                    comprovanteParcial += "\n" + item.ToString();
+                }
+                Console.WriteLine("COMPROVANTE PARCIAL");
+                Console.WriteLine("...................");
+                Console.WriteLine(comprovanteParcial);
+            }
         }
     }
 }
